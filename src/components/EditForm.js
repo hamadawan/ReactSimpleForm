@@ -43,6 +43,7 @@ const EditForm = props => {
         onClick={() => {
           props.setEditing(false)
           props.updateUser(user.id, user)
+          console.log("update",user)
         }}
       >
         Update

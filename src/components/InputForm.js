@@ -36,6 +36,7 @@ const InputForm = props => {
 					if (!user.name || !user.gender) return
 					props.addUser(user)
 					setUser(initialFormState)
+					console.log("added",user)
 				}}
 			>
 				Add new user

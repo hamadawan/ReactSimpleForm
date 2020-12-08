@@ -34,7 +34,7 @@ function App() {
 		setEditing(true)
 		setCurrentUser({ id: user.id, name: user.name, gender: user.gender })
 	}
-
+	console.log("Users",usersData)
 	return (
 		<Paper style={{display:'flex', width:'90%', padding:'10px', margin:'0 auto',  flexDirection:'column', justifyContent:'center'}}>
 	

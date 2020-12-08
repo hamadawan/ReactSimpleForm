@@ -33,6 +33,7 @@ const TableUser = props => (
                 color="primary" 
                 onClick={() => props.deleteUser(user.id)}
                 className="button muted-button"
+                
               >
                 Delete
               </Button>
