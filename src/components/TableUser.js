@@ -2,8 +2,8 @@ import React from 'react'
 import { Button, Paper } from '@material-ui/core'
 
 const TableUser = props => (
-<Paper style={{display:'flex', width:'80%', padding:'10px', margin:'0 auto',  flexDirection:'row', justifyContent:'space-around'}}>
-		
+
+ <Paper style={{display:'flex', width:'80%', padding:'10px', margin:'0 auto',  flexDirection:'row', justifyContent:'space-around'}}>		
   <table>
     <thead>
       <tr>
